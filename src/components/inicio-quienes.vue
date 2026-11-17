@@ -1,4 +1,4 @@
-<script setup>
+<script  setup lang="ts">
 
     import carusel1 from '@/assets/imgs/INICIO/carrusel1.webp'
     import carusel2 from '@/assets/imgs/INICIO/carrusel2.webp'

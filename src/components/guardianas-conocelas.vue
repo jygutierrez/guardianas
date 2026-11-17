@@ -1,4 +1,4 @@
-<script setup>
+<script  setup lang="ts">
 import { ref } from 'vue'
 const isFlipped = ref(false)
 const isFlippedY = ref(false)
