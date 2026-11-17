@@ -1,0 +1,47 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --color-terracota: #ae2e05;
+  --color-amarillo: #fea800;
+  --color-verde: #666f22;
+  --color-violeta-oscuro: #3f0c32;
+  --color-violeta-claro: #771441;
+  --color-amarillo-claro: #fcffcb;
+  --color-amarillo-pastel: #f9ff8c;
+  --color-crema-fondos: #fffbec;
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-background: var(--vt-c-white);
+}
+
+a{
+    text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+@font-face {
+    font-family : 'montserrat';
+    src: url('Montserrat-VariableFont_wght.ttf') format(ttf);
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-violeta-oscuro);
+  background: var(--color-crema-fondos);
+  font-family:
+    'montserrat',
+    Ubuntu,
+    sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
