@@ -74,7 +74,7 @@ const mielecita = reactive ( [
 
         <div class="flip-card"
         
-        v-for="(miel, key, index) in mielecita"
+        v-for="(miel, key) in mielecita"
         :key="key"
         >
 
