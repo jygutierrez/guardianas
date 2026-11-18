@@ -1,6 +1,6 @@
 <template>
  <div class="video-inicio">
-   <video autoplay muted loop playsinline>
+   <video autoplay loop playsinline>
      <source src="@/assets/videos/inicio.webm" type="video/webm" poster="@/assets/imgs/EQUIPO/Imagenoveja equipo.webp">
    </video>
    <div class="guardianas-logo">
