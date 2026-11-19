@@ -4,8 +4,8 @@
             <div class="items-home">
              
              <RouterLink to="/">
-                <img class="logo-guardianas" src="../assets/imgs/ENCABEZADO/LOGO ENCABEZADO INICIO.png" alt="Logo del proyecto Guardianas"/>
-                <p>Inicio</p>
+                <div class="imagen-home"></div>
+                Inicio
             </RouterLink>
 
             </div>
@@ -65,9 +65,15 @@
 
  .items-home p{
     padding-left: 0.5rem;
+    font-weight: bold;
  }
 
  .items-home a{
+    padding-left: 0.6rem;
+    color: var(--color-amarillo-claro)
+ }
+
+ .items-home a:hover{
     padding-left: 0.6rem;
     color: var(--color-amarillo)
  }
@@ -78,6 +84,19 @@
 
  .logo-guardianas {
      max-width: 2rem;
+ }
+
+
+ .imagen-home {
+    width: 3rem;
+    height: 2rem;
+    background-image: url("@/assets/imgs/ENCABEZADO/LOGOENCABEZADO2.png");
+    background-size: contain;
+    background-position: center;
+ }
+
+ .items-home:hover .imagen-home{
+    background-image: url("@/assets/imgs/ENCABEZADO/LOGO ENCABEZADO INICIO.png");
  }
 
 
