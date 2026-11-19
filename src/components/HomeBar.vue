@@ -54,14 +54,7 @@
   display: inline-block;
  }
 
-.router-link-active {
-  color: var(--color-amarillo);
-  font-weight: bold;
-}
 
-.router-link-exact-active {
-    color: var(--color-amarillo);
-}
 
  .items-home p{
     padding-left: 0.5rem;
@@ -98,6 +91,15 @@
  .items-home:hover .imagen-home{
     background-image: url("@/assets/imgs/ENCABEZADO/LOGO ENCABEZADO INICIO.png");
  }
+
+ .router-link-active {
+  color: var(--color-amarillo);
+  font-weight: bold;
+}
+
+.router-link-exact-active {
+    color: var(--color-amarillo);
+}
 
 
 @media (max-width: 1100px) {
