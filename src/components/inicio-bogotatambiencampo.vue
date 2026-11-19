@@ -30,11 +30,12 @@
 .bg{
  position: relative;
  overflow: hidden;
+ margin-top: 2rem;
 }
 
 .bgt-campo {
  max-width: 58vw;
- transform: translateY(-6rem) translateX(52rem);
+ transform: translateY(-8rem) translateX(52rem);
 }
 
 .info {
@@ -56,7 +57,7 @@
   transform: translateY(-6rem);
 }
 
-.bgt-rural p {
+.bgt-rural p, .bgt-mujeres p {
     font-weight: bold;
 }
 
