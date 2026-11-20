@@ -8,24 +8,22 @@ const inVideo = ref(null);
 const is_playing = ref(false);
 
 const toggleVideo = () => {
-  try {
-      if (inVideo.value.paused) {
-        
-        inVideo.value.play();
-        is_playing.value = true;
+  if (inVideo.value) {
+    if (inVideo.value.paused) {
 
-      } else {
+      inVideo.value.play();
+      is_playing.value = true;
 
-        
-        inVideo.value.pause();
-        is_playing.value = false;
+    } else {
 
-      }
-    } catch (error) {
-      console.error( "Variable inVideo: ", error.message)
+
+      inVideo.value.pause();
+      is_playing.value = false;
+
     }
+  }
 
-} 
+}
 
 
 </script>
@@ -37,14 +35,14 @@ const toggleVideo = () => {
     </video>
     <div class="guardianas-logo">
       <img class="logo" src="@/assets/imgs/FOOTER/GUARDIANAS LOGO FOOTER.webp" alt="logo GUARDIANAS" />
-      <svg-icon width="120" height="120" type="mdi" :path="is_playing ? mdiPauseCircle : mdiPlayCircle " class="button-play" @click="toggleVideo" ></svg-icon>
+      <svg-icon width="120" height="120" type="mdi" :path="is_playing ? mdiPauseCircle : mdiPlayCircle"
+        class="button-play" @click="toggleVideo"></svg-icon>
     </div>
   </div>
 </template>
 
-<style scoped>g
-
-.button-play {
+<style scoped>
+g .button-play {
   font-size: 4rem;
   height: 10vh;
   width: 10vw;
