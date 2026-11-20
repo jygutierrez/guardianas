@@ -224,6 +224,7 @@ const imgYaneth = img_Yaneth
     color: var(--color-crema-fondos);
     font-size: 2rem;
     text-align: center;
+    font-weight: 500;
 }
 
 @media (max-width: 1100px) {
