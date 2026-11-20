@@ -26,9 +26,12 @@
 
 .text-titulo {
     color: var(--color-amarillo-pastel);
-    font-size: 2rem;
-    font-weight: bolder;
+    font-size: 1.8rem;
     width: 25vw;
+}
+
+.text-titulo h2 {
+   font-weight: 800;
 }
 
 .text-explicacion {
