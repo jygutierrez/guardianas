@@ -47,7 +47,7 @@
 .mortino{
   position: absolute;
   width:35vw;
-  transform: translateX(115%) translateY(-110%);
+  transform: translateX(125%) translateY(-112%);
 }
 
 @media (max-width: 1100px) {
