@@ -8,6 +8,7 @@ const inVideo = ref(null);
 const is_playing = ref(false);
 
 const toggleVideo = () => {
+      if !inVideo {return}
       if (inVideo.value.paused) {
         
         inVideo.value.play();
