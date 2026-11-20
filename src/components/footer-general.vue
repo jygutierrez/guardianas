@@ -59,6 +59,7 @@
 
 .conoce p {
     font-size: 2.5rem;
+    font-weight: bold;
     color: var(--color-crema-fondos);
     margin-bottom: 2rem;
     margin-top: 3rem;
