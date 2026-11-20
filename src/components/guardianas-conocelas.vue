@@ -33,7 +33,7 @@ const imgYaneth = img_Yaneth
                         <v-card color="#ae2e05" rounded="4rem" @click="isFlipped = false" class="fill-height">
                             <v-card-text class="guardianaCitaA">"Las mujeres de páramo son memoria viva de agua y
                                 montaña".</v-card-text>
-                            <v-card-text class="guardianaCitaB">Heredé de mis padres la sabidura de las
+                            <v-card-text class="guardianaCitaB">Heredé de mis padres la sabiduría de las
                                 plantas.</v-card-text>
                         </v-card>
                     </div>
