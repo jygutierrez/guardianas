@@ -123,10 +123,11 @@ const mielecita = reactive ( [
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-top: 5vh;
 }
 
 .img-bienv img:nth-child(2) {
-    width: 50vw;
+    width: 60vw;
 }
 
 .img-bienv img:nth-child(1), .img-bienv img:nth-child(3){
@@ -155,7 +156,6 @@ const mielecita = reactive ( [
 }
 
 .prods-title {
-    padding-top: 1rem;
     font-size: 3rem;
     color: var(--color-amarillo-pastel);
     font-weight: bold;
