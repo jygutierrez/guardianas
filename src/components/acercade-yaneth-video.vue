@@ -1,9 +1,8 @@
 <template>
     <div class="container">
-        <video width="1000" controls>
-            <source src="@/assets/videos/yaneth.webm" type="video/webm">
-            Su navegador no soporta videos.
-        </video> 
+
+        <iframe src="https://www.youtube.com/embed/dsDpB5MpYAQ" width="1280" height="720" title="Sandra Peñaloza" frameborder="0"></iframe>
+
 
         <div class="grd-buttons">
             <RouterLink to="/apiusme">Conoce más</RouterLink>
@@ -17,8 +16,13 @@
 
 .container {
     background-color: var(--color-terracota);
-    height: 90vh;
-    padding-top: 4rem;
+    padding-top: 8vh;
+    padding-bottom: 5vh;
+}
+
+.container iframe {
+    display: flex;
+    margin: auto;
 }
 
 .container video {

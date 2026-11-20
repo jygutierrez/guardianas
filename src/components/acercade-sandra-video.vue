@@ -16,8 +16,8 @@
 
 .container {
     background-color: var(--color-terracota);
-    height: 90vh;
-    padding-top: 4rem;
+    padding-top: 8vh;
+    padding-bottom: 5vh;
 }
 
 .container iframe {
