@@ -23,28 +23,31 @@
 
 .text h2 {
     margin: auto;
-    color: var(--color-amarillo-claro);
-    max-width: 70rem;
-    font-size: 3rem;
+    color: var(--color-amarillo-pastel);
+    font-weight: bold;
+    font-size: 3.2rem;
+    width: 34vw;
 }
 
 .text p {
-  max-width: 50rem;
+  width: 30vw;
   font-size: 2.2rem;
 }
 
 .content {
   display: flex;
+  width: 54vw;
   background-color: var(--color-verde);
   padding: 4rem 7rem;
   border-radius: 4rem;
+  margin: auto;
   margin-bottom: 10rem;
 }
 
 .mortino{
   position: absolute;
-  width:40vw;
-  transform: translateX(50rem) translateY(-30rem);
+  width:35vw;
+  transform: translateX(115%) translateY(-110%);
 }
 
 @media (max-width: 1100px) {
