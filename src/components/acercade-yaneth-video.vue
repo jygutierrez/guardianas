@@ -1,7 +1,7 @@
 <template>
     <div class="container">
 
-        <iframe src="https://www.youtube.com/embed/dsDpB5MpYAQ" width="1280" height="720" title="Sandra Peñaloza" frameborder="0"></iframe>
+        <iframe src="https://www.youtube.com/embed/dsDpB5MpYAQ" width="1280" height="720" title="Yaneth Bermúdez" frameborder="0"></iframe>
 
 
         <div class="grd-buttons">
