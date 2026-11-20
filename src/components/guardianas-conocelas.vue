@@ -108,7 +108,7 @@ const imgYaneth = img_Yaneth
 
 .bg {
     background-color: var(--color-violeta-oscuro);
-    height: 90vh;
+    padding-bottom: 4vh;
 }
 
 .bg h2 {

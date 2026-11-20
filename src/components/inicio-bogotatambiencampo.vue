@@ -35,7 +35,7 @@
 
 .bgt-campo {
  max-width: 58vw;
- transform: translateY(-8rem) translateX(52rem);
+ transform: translateY(-8rem) translateX(45rem);
 }
 
 .info {
