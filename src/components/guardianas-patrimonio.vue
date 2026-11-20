@@ -1,31 +1,39 @@
 <template>
     <div class="container">
-        <div class="informacion">
-            <p>Un patrimonio que mantienen vivo.</p>
-            <h2>¿Qué es?</h2>
-            <p>Los <b>saberes y las tradiciones</b> que una comunidad construye, practica y transmite de generación en
-                generación, como las recetas, los oficios y los remedios tradicionales, <b>hacen parte de su identidad
-                    cultural y constituyen su patrimonio vivo.</b></p>
-        </div>
-
-        <div class="imagen">
-            <img src="@/assets/imgs/GUARDIANAS/señora sandra uniforme.webp" alt="Señora Sandra en uniforme">
+        <div class="center">
+            <div class="informacion">
+                <p>Un patrimonio que mantienen vivo.</p>
+                <h2>¿Qué es?</h2>
+                <p>Los <b>saberes y las tradiciones</b> que una comunidad construye, practica y transmite de generación
+                    en
+                    generación, como las recetas, los oficios y los remedios tradicionales, <b>hacen parte de su
+                        identidad
+                        cultural y constituyen su patrimonio vivo.</b></p>
+            </div>
+            <div class="imagen">
+                <img src="@/assets/imgs/GUARDIANAS/señora sandra uniforme.webp" alt="Señora Sandra en uniforme">
+            </div>
         </div>
     </div>
 </template>
 
 <style scoped>
-
 .container {
     display: flex;
-    padding-top: 4rem;
-    padding-bottom: 3.6rem;
     margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    max-height: 50vh;
+    pointer-events: none;
+}
+
+.center {
+    display: flex;
+    align-items: center;
 }
 
 .informacion {
-    width: 40vw;
-    margin-left: 10rem;
+    width: 30vw;
 }
 
 .informacion p:nth-child(1) {
@@ -53,19 +61,24 @@ b {
 }
 
 .imagen {
-    position: absolute;
     z-index: 1;
-    transform: translateX(60rem) translateY(-10rem);
+}
+
+.imagen img {
+    height: 60vw;
+    transform: translateX(-1%) translateY(16%);
 }
 
 @media (max-width: 1100px) {
     .container {
         padding: 1rem 1rem;
     }
+
     .informacion {
         width: 100vw;
         margin: 0rem;
     }
+
     .informacion p:nth-child(1) {
         color: var(--color-verde);
         font-size: 1.5rem;
@@ -93,6 +106,4 @@ b {
     }
 
 }
-
-
 </style>
