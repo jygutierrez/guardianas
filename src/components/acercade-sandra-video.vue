@@ -1,9 +1,7 @@
 <template>
     <div class="container">
-        <video width="1000" controls>
-            <source src="@/assets/videos/sandra.webm" type="video/webm">
-            Su navegador no soporta videos.
-        </video> 
+
+        <iframe src="https://www.youtube.com/embed/IkT-_auEhco" width="1280" height="720" title="Sandra Peñaloza" frameborder="0"></iframe>
 
 
         <div class="grd-buttons">
@@ -22,7 +20,7 @@
     padding-top: 4rem;
 }
 
-.container video {
+.container iframe {
     display: flex;
     margin: auto;
 }
