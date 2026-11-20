@@ -26,6 +26,7 @@
 
 .text p {
   text-align: center;
+  font-weight: bold;
 }
 
 .content {
@@ -37,16 +38,15 @@
 .img-box {
   width: 23vw;
   height: 23vh;
-  max-width: 23vw;
-  max-height: 23vh;
   background-image: url('@/assets/imgs/INICIO/Icono1.webp');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  transition: background-image 0.3s;
+  transition: 0.8s;
 }
 .img-box:hover {
   background-image: url('@/assets/imgs/INICIO/icono1.1.webp');
+  transition: 0.8s;
 }
 
 @media (max-width: 1100px) {
