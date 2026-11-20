@@ -165,6 +165,7 @@
 .item p {
     text-align: center;
     font-size: 1.5rem;
+    padding-top: 2vh;
     margin: 0;
 }
 
