@@ -30,7 +30,7 @@
 
 .titulo {
     width: 56vw;
-    transform: translateX(60rem) translateY(-5rem);
+    transform: translateX(78%) translateY(-20%);
 }
 
 .bg > img {
