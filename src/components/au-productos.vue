@@ -80,16 +80,18 @@ const mielecita = reactive ( [
 
             <div class="flip-card-inner" :class="{ 'is-flipped': miel.flp }">
                 <div class="flip-card-front">
-                    <v-card class="fill-height" color="#ae2e05" rounded="4rem" @click="miel.flp = true">
+                    <v-card height="400" color="#ae2e05" rounded="4rem" @click="miel.flp = true">
                         <v-img color="#FFFBEC" height="400" :src="miel.src" cover></v-img>
                     </v-card>
                 </div>
 
 
                 <div class="flip-card-back">
-                    <v-card color="#ae2e05" rounded="4rem" @click="miel.flp = false" class="fill-height">
-                        <v-card-text class="prods-title">{{ miel.title }}</v-card-text>
-                        <v-card-text class="prods-dptn">{{ miel.dptn }}</v-card-text>
+                    <v-card height="400" color="#ae2e05" rounded="4rem" @click="miel.flp = false" class="d-flex flex-column flex-grow-1 text-center">
+                        <v-card-text class="d-flex flex-column justify-center align-center flex-grow-1 text-center">
+                            <h2 class="prods-title">{{ miel.title }}</h2>
+                            <p class="prods-dptn">{{ miel.dptn }}</p>
+                        </v-card-text>
                     </v-card>
                 </div>
 
@@ -161,6 +163,7 @@ const mielecita = reactive ( [
     font-weight: bold;
     text-align: center;
     line-height: 2.8rem;
+    padding-bottom: 2rem;
 }
 
 .prods-dptn {
@@ -207,6 +210,7 @@ const mielecita = reactive ( [
 .grd-bgcolor {
     padding-top: 8vh;
     background-color: var(--color-crema-fondos);
+    padding-bottom: 10vh;
 }
 
 .grd-buttons{
