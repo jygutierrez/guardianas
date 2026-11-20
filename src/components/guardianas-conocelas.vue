@@ -100,12 +100,10 @@ const imgYaneth = img_Yaneth
         transform: scale(1.05)
     }
 
-    /* zoom in */
     100% {
         transform: scale(1);
     }
 
-    /* back to normal */
 }
 
 .bg {
