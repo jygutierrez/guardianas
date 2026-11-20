@@ -25,7 +25,7 @@
 }
 
 .text-titulo {
-    color: var(--color-amarillo-claro);
+    color: var(--color-amarillo-pastel);
     font-size: 2rem;
     font-weight: bolder;
     width: 25vw;
@@ -36,7 +36,7 @@
     font-size: 2rem;
     width: 38vw;
     padding-left: 3rem;
-    border-left: 0.5rem solid var(--color-amarillo-claro);
+    border-left: 0.5rem solid var(--color-amarillo-pastel);
 }
 
 @media (max-width: 1100px) {
