@@ -4,7 +4,7 @@ import SvgIcon from '@jamescoyle/vue-icon';
 import { mdiPlayCircle, mdiPauseCircle } from '@mdi/js';
 import { ref } from 'vue';
 
-const inVideo = ref(null);
+const inVideo = ref<HTMLVideoElement | null>(null)
 const is_playing = ref(false);
 
 const toggleVideo = () => {
