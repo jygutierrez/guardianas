@@ -13,7 +13,7 @@
 
 .cita p {
     font-size: 2.4rem;
-    line-height: 2.2rem;
+    line-height: 2.6rem;
     width: 60vw;
     text-align: center;
     font-weight: bold;
