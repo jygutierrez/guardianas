@@ -65,6 +65,10 @@
     height: 50vh;
 }
 
+.comunidad:nth-child(3){
+    justify-content: left;
+}
+
 .comd-info {
     color: var(--color-violeta-oscuro);
     width: 35vw;
@@ -165,7 +169,7 @@
 }
 
 .grd-buttons {
-    margin-left: 20vw;
+    margin-left: 7vw;
     margin-top: 3rem;
 }
 
