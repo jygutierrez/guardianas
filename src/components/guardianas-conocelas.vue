@@ -22,7 +22,7 @@ const imgYaneth = img_Yaneth
 
                     <div class="flip-card-front">
                         <v-card class="fill-height" color="#ae2e05" rounded="4rem" @click="isFlipped = true">
-                            <v-img color="#FFFBEC" height="400" :src="imgSandra" cover></v-img>
+                            <v-img color="#FFFBEC" height="500" :src="imgSandra" cover></v-img>
                             <v-card-title class="guardianaTitulo">Sandra Peñalosa</v-card-title>
                             <v-card-text class="guardianaDonde">Loc. Usme / Vereda Arrayanes</v-card-text>
                         </v-card>
@@ -53,7 +53,7 @@ const imgYaneth = img_Yaneth
 
                     <div class="flip-card-front">
                         <v-card class="fill-height" color="#ae2e05" rounded="4rem" @click="isFlippedY = true">
-                            <v-img color="#FFFBEC" height="400" :src="imgYaneth" cover></v-img>
+                            <v-img color="#FFFBEC" height="500" :src="imgYaneth" cover></v-img>
                             <v-card-title class="guardianaTitulo">Yaneth Bermúdez</v-card-title>
                             <v-card-text class="guardianaDonde">Loc. Usme / Vereda El Destino</v-card-text>
                         </v-card>
@@ -146,6 +146,7 @@ const imgYaneth = img_Yaneth
     color: var(--color-violeta-claro);
     background-color: var(--color-amarillo);
     font-size: 1.4rem;
+    font-weight: bold;
     transition: 0.8s;
 }
 
@@ -158,7 +159,7 @@ const imgYaneth = img_Yaneth
 .flip-card {
     perspective: 1000px;
     width: 25vw;
-    height: 60vh;
+    height: 55vh;
 }
 
 .flip-card-inner {
@@ -201,7 +202,7 @@ const imgYaneth = img_Yaneth
 
 .guardianaTitulo {
     color: var(--color-violeta-oscuro);
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: bold;
 }
 
