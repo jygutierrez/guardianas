@@ -5,7 +5,7 @@
              
              <RouterLink to="/">
                 <div class="imagen-home"></div>
-                Inicio
+                <span class="home-text">Inicio</span>
             </RouterLink>
 
             </div>
@@ -88,17 +88,24 @@
     background-position: center;
  }
 
- .items-home:hover .imagen-home{
+ .items-home a:hover .imagen-home{
     background-image: url("@/assets/imgs/ENCABEZADO/LOGO ENCABEZADO INICIO.png");
  }
 
- .router-link-active {
-  color: var(--color-amarillo);
+.router-link-active {
   font-weight: bold;
 }
 
 .router-link-exact-active {
     color: var(--color-amarillo);
+}
+
+.items-home a.router-link-exact-active .home-text {
+    color: var(--color-amarillo);
+}
+
+.items-home a.router-link-exact-active .imagen-home {
+    background-image: url("@/assets/imgs/ENCABEZADO/LOGO ENCABEZADO INICIO.png");
 }
 
 
