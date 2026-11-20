@@ -98,8 +98,10 @@ const mielecita = reactive ( [
 
     </div>
 
-    <div class="grd-buttons">
-            <a href="https://linktr.ee/apiusme" target="_blank" >Conoce sus productos</a>
+    <div class="grd-bgcolor">
+        <div class="grd-buttons">
+                <a href="https://linktr.ee/apiusme" target="_blank" >Conoce sus productos</a>
+        </div>
     </div>
 
 </template>
@@ -202,10 +204,14 @@ const mielecita = reactive ( [
   transform: rotateY(180deg);
 }
 
+.grd-bgcolor {
+    padding-top: 8vh;
+    background-color: var(--color-crema-fondos);
+}
+
 .grd-buttons{
     width: 20vw;
     margin: auto;
-    margin-top: 3rem;
     text-align: center;
 }
 
