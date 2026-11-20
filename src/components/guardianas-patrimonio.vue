@@ -66,7 +66,7 @@ b {
 
 .imagen img {
     height: 60vw;
-    transform: translateX(-1%) translateY(16%);
+    transform: translateX(-1%) translateY(22%);
 }
 
 @media (max-width: 1100px) {
