@@ -99,22 +99,22 @@
 }
 
 .florA {
-    transform: translateX(-5rem) translateY(-6rem) rotate(20deg);
+    transform: translateX(-5%) translateY(-20%) rotate(20deg);
     width: 30rem;
 }
 
 .florB {
-    transform: translateX(15rem) translateY(12rem) rotate(-68deg);
+    transform: translateX(65%) translateY(80%) rotate(-44deg);
     width: 24rem;
 }
 
 .florC {
-    transform: translateX(120rem) translateY(-4rem) rotate(35deg);
+    transform: translateX(560%) translateY(-30%) rotate(35deg);
     width: 20rem;
 }
 
 .florD {
-    transform: translateX(100rem) translateY(12rem) rotate(35deg);
+    transform: translateX(400%) translateY(70%) rotate(35deg);
     width: 24rem;
 }
 
