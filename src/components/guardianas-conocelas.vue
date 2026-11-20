@@ -137,7 +137,7 @@ const imgYaneth = img_Yaneth
 
 
 .grd-buttons a:nth-child(2) {
-    margin-left: 4rem;
+    margin-left: 5vw;
 }
 
 .grd-buttons a {
@@ -159,7 +159,7 @@ const imgYaneth = img_Yaneth
 .flip-card {
     perspective: 1000px;
     width: 25vw;
-    height: 55vh;
+    height: 650px;
 }
 
 .flip-card-inner {
