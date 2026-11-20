@@ -8,7 +8,7 @@ const inVideo = ref(null);
 const is_playing = ref(false);
 
 const toggleVideo = () => {
-      if (!inVideo) {return}
+  try {
       if (inVideo.value.paused) {
         
         inVideo.value.play();
@@ -21,6 +21,9 @@ const toggleVideo = () => {
         is_playing.value = false;
 
       }
+    } catch (error) {
+      console.error( "Variable inVideo: ", error.message)
+    }
 
 } 
 
