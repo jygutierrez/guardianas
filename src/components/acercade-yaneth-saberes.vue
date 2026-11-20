@@ -53,6 +53,7 @@ h2 {
     text-align: center;
     padding-top: 2.45rem;
     font-size: 1.23rem;
+    font-weight: 500;
     margin: 0;
 }
 

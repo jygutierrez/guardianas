@@ -33,6 +33,7 @@
     margin-top: 2rem;
     margin-left: 3rem;
     position: absolute;
+    font-weight: bold;
 }
 
 .back button:hover {
@@ -79,6 +80,7 @@
     color: var(--color-violeta-claro);
     text-align: center;
     font-size: 2.5rem;
+    font-weight: 500;
 }
 
 .container .acercade{
