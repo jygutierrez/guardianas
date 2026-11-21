@@ -87,7 +87,7 @@
  }
 
  .items-home a:hover .imagen-home{
-    background-image: url("@/assets/imgs/ENCABEZADO/LOGO ENCABEZADO INICIO.png");
+    background-image: url("@/assets/imgs/ENCABEZADO/Recurso 27.png");
  }
 
 .router-link-active {
