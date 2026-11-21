@@ -39,6 +39,7 @@
 .informacion p:nth-child(1) {
     color: var(--color-verde);
     font-size: 3.8rem;
+    font-weight: 700;
     text-align: left;
     line-height: 3rem;
 }

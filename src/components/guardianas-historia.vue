@@ -26,6 +26,7 @@
     color: var(--color-amarillo-pastel);
     font-weight: bold;
     font-size: 3.2rem;
+    line-height: 3.2rem;
     width: 34vw;
 }
 

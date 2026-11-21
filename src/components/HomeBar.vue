@@ -54,8 +54,6 @@
   display: inline-block;
  }
 
-
-
  .items-home p{
     padding-left: 0.5rem;
     font-weight: bold;
@@ -67,8 +65,7 @@
  }
 
  .items-home a:hover{
-    padding-left: 0.6rem;
-    color: var(--color-amarillo)
+    color: var(--color-verde)
  }
 
  .items-home {
@@ -84,6 +81,7 @@
     width: 3rem;
     height: 2rem;
     background-image: url("@/assets/imgs/ENCABEZADO/LOGOENCABEZADO2.png");
+    margin-right: .5vw;
     background-size: contain;
     background-position: center;
  }

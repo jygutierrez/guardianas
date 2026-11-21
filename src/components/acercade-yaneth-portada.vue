@@ -33,7 +33,7 @@
     margin-top: 2rem;
     margin-left: 3rem;
     position: absolute;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .back button:hover {

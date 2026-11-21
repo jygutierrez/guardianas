@@ -146,7 +146,7 @@ const imgYaneth = img_Yaneth
     color: var(--color-violeta-claro);
     background-color: var(--color-amarillo);
     font-size: 1.4rem;
-    font-weight: bold;
+    font-weight: 900;
     transition: 0.8s;
 }
 
