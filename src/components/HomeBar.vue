@@ -54,9 +54,10 @@
   display: inline-block;
  }
 
- .items-home p{
+ .items-home span{
     padding-left: 0.5rem;
     font-weight: bold;
+    font-size: 2rem;
  }
 
  .items-home a{
