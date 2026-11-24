@@ -85,7 +85,7 @@ b {
     .informacion {
         width: 50vw;
         margin: 0rem;
-        transform: translateY(-65%);
+        transform: translateY(-95%);
     }
 
     .informacion p:nth-child(1) {

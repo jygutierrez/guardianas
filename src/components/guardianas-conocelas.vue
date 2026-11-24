@@ -262,7 +262,7 @@ const imgYaneth = img_Yaneth
     }
 
     :deep(.v-img) {
-        height: 38vh !important;
+        height: 36vh !important;
     }
 
 
