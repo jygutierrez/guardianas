@@ -117,6 +117,11 @@
         transform: translateX(80%) translateY(45%);
     }
 
+    .orquidea {
+        width: 30vw;
+        transform: translateX(110%) translateY(190%);
+    }
+
 
     .bg {
         background-size: covers;
