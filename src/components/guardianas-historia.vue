@@ -55,20 +55,23 @@
 
   .content {
     margin-bottom: 0rem;
+    width: 90vw;
   }
 
   .bg {
-    padding: 2vh 5vw;
+    padding: 2vh 2vw;
   }
 
   .text h2 {
-    font-size: 1.8rem;
-    line-height: 2.5rem;
-    max-width: 20rem;
+    font-size: 1.2rem;
+    line-height: normal;
+    width: 70vw;
+    margin: 0px;
   }
 
   .text p {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    width: 45vw;
   }
 
   .content {
@@ -77,9 +80,8 @@
   }
 
   .mortino {
-    transform: translateX(14rem) translateY(-3rem);
-    width: 40vw;
-    display: none;
+    transform: translateX(92%) translateY(-80%);
+    width: 50vw;
   }
 
 }

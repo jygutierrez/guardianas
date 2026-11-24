@@ -95,15 +95,18 @@
 
 
     .back button {
-        font-size: .8rem;
-        padding: .5rem 1rem;
+        font-size: .4rem;
+        padding: .2rem .5rem;
+    }
+
+    .info {
+        transform: translateY(-33%);
     }
 
 
     .container {
-        height: 50vh;
-        background-position: 40% 100%;
-        background-size: contain;
+        height: 38vh;
+        background-size: cover;
     }
 
 
@@ -114,22 +117,24 @@
     }
 
     .container h1 {
-        font-size: 1.5rem;
+        font-size: .8rem;
+        border-bottom: 1vw solid var(--color-terracota);
     }
 
     .container .localidad{
-        font-size: 0.8rem;
-    }
-
-    .container .acercade{
         font-size: 0.5rem;
     }
 
+    .container .acercade{
+        font-size: 0.40rem;
+    }
+
     .container .imagen img {
-        height: 15rem;
-        transform: translateX(2rem) translateY(5rem);
+        height: 32vh;
+        transform: translateX(2%) translateY(10%);
     }
 }
+
 
 
 </style>

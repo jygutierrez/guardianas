@@ -65,7 +65,7 @@
     height: 50vh;
 }
 
-.comunidad:nth-child(3){
+.comunidad:nth-child(3) {
     justify-content: left;
 }
 
@@ -109,12 +109,12 @@
 }
 
 .florC {
-    transform: translateX(560%) translateY(-30%) rotate(35deg);
+    transform: translateX(420%) translateY(-30%) rotate(35deg);
     width: 20rem;
 }
 
 .florD {
-    transform: translateX(400%) translateY(70%) rotate(35deg);
+    transform: translateX(320%) translateY(70%) rotate(35deg);
     width: 24rem;
 }
 
@@ -193,75 +193,116 @@
 
 @media (max-width: 1100px) {
 
-    .grd-buttons{
+    .grd-buttons {
         width: 20rem;
         margin: auto;
         margin-top: 2rem;
     }
 
     .img-abeja img:nth-child(1) {
-        width: 18rem;
+        width: 70vw;
         position: absolute;
-        transform: translateX(0rem) translateY(-32rem);
+        transform: translateX(-4%) translateY(-90%);
     }
 
     .img-abeja img:nth-child(2) {
-        display: none;
-        z-index: -1;
+        width: 10vw;
+        bottom: 76%;
+        right: 35%;
     }
 
     .img-abeja img:nth-child(3) {
-        display: none;
+        width: 38vw;
+    }
+
+    .comunidad {
+        height: 15vh;
+        margin-bottom: 1vh;
+        margin-left: 2vw;
     }
 
     .comd-info {
-        width: 100vw;
-        margin-top: 10rem;
-        margin-left: 0;
-        text-align: center;
+        width: 55vw;
+        margin-top: 9vh;
+        margin-left: 1vw;
+        text-align: left;
     }
 
     .comd-info p:nth-child(1) {
-        font-size: 2rem;
+        font-size: 1rem;
         font-weight: bold;
     }
 
     .comd-info p:nth-child(2) {
-        margin-top: 2rem;
-        font-size: 1.6rem;
+        margin-top: 1vw;
+        font-size: .6rem;
     }
 
     .flor-flr {
-        display: none;
+        width: 20vw;
+    }
+
+    .florA {
+        transform: translateX(-5%) translateY(50%) rotate(20deg);
+    }
+
+    .florB {
+        transform: translateX(65%) translateY(190%) rotate(-44deg);
+    }
+
+    .florC {
+        transform: translateX(350%) translateY(210%) rotate(35deg);
+    }
+
+    .florD {
+        transform: translateX(380%) translateY(70%) rotate(35deg);
     }
 
 
     .nota {
-        padding: 2rem;
+        padding: 2vh 20vw;
     }
 
     .nota p:nth-child(1) {
-        font-size: 2rem;
+        font-size: .8rem;
         font-weight: bold;
-    }   
+    }
 
     .nota p:nth-child(2) {
-        font-size: 1rem;
+        font-size: .6rem;
         font-style: italic;
         padding: 0rem 12vw;
     }
 
-    .descripcion{
+    .descripcion {
         justify-content: space-around;
+        padding: 2vh 1vw;
         gap: 0.2rem;
     }
 
     .item img {
-        width: 18vw;
+        width: 15vw;
     }
 
     .item p {
-        font-size: 1rem;
+        font-size: .6rem;
     }
+
+    .grd-buttons {
+        margin-left: 1vw;
+        margin-top: 2vh;
+    }
+
+    .grd-buttons a {
+        padding: 0.4rem 1.1rem;
+        border-radius: 3rem;
+        color: var(--color-violeta-claro);
+        background-color: var(--color-amarillo);
+        font-size: .6rem;
+        transition: 0.8s;
+        font-weight: bold;
+    }
+
+
 }
 </style>

@@ -82,7 +82,13 @@
     }
 
     .container-info h2 {
-        font-size: 2.3rem;
+        font-size: 1rem;
+        padding: 1.2vh 0vw;
+        line-height: 1.3rem;
+    }
+
+    .container-info p {
+        font-size: .8rem;
     }
 
     .container-img {
@@ -99,11 +105,14 @@
     }
 
     .grd-buttons a{
-        padding: 0.8rem 2.2rem;
+        padding: 0.4rem 1.1rem;
         border-radius: 3rem;
         font-size: .85rem;
         font-weight: bold;
-        width: 20vw;
+    }
+
+    .grd-buttons {
+        padding-bottom: 4vh;
     }
 
 

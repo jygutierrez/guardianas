@@ -72,38 +72,45 @@ b {
 
 @media (max-width: 1100px) {
     .container {
-        padding: 1rem 1rem;
+        padding: 1vh 1vw;
+        max-height: 20vh;
+        margin: 0px;
+        margin-top: 0;
+    }
+
+    .center {
+        align-items: end;
     }
 
     .informacion {
-        width: 100vw;
+        width: 50vw;
         margin: 0rem;
+        transform: translateY(-65%);
     }
 
     .informacion p:nth-child(1) {
         color: var(--color-verde);
-        font-size: 1.5rem;
+        font-size: 1rem;
         text-align: center;
         line-height: 1.5rem;
     }
 
     .informacion h2 {
         color: var(--color-violeta-oscuro);
-        font-size: 1.4rem;
+        font-size: .8rem;
         text-align: center;
         font-weight: bold;
-        margin-top: 2rem;
     }
 
     .informacion :last-child {
         color: var(--color-violeta-oscuro);
-        font-size: 0.8rem;
+        font-size: 0.4rem;
         text-align: center;
     }
 
-    .imagen {
-        display: none;
-        transform: translateX(-1rem) translateY(8rem);
+    .imagen img{
+        height: 50vh;
+        transform: translateX(-1%) translateY(22%);
     }
 
 }

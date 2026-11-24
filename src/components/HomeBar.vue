@@ -116,8 +116,18 @@
         justify-content: center;
     }
 
+    .items-home .home-text {
+        padding: 0%;
+        font-size: 3.8vw;
+    }
+
     .items-home{
         padding: 0vw;
+    }
+
+    .imagen-home {
+        width: 5vw;
+        height: 3vw;
     }
 
     .items-list a{

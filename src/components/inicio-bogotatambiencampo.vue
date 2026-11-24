@@ -135,11 +135,15 @@
 
 .bgt-campo {
  max-width: 75vw;
- transform: translateY(-1rem) translateX(5rem);
+ transform: translateY(-20%) translateX(30%);
 }
 
 .info {
   height: 50vh;
+ background-image: url("@/assets/imgs/INICIO/MAPA2.webp");
+ background-size: contain;
+ width: 95%;
+ margin: auto;
 }
 
 .img-guide {
@@ -148,59 +152,60 @@
 }
 
 .info-img {
-    max-width: 1rem;
-    height: 1.5rem;
+    max-width: .8rem;
+    height: 1rem;
 }
 
 .bgt-rural {
-  padding-left: 2rem;
-  transform: translateY(3.6rem);
+  padding-left: 1rem;
+  transform: translateY(11vh);
 }
 
 
 .bgt-rural .guide{
-  font-size: 0.6rem;
-  padding-top: 0rem;
+  font-size: 0.5rem;
+  padding-top: 0.3rem;
   padding-left: 0.2rem;
 }
 
 
 .bgt-rural > :nth-child(1) {
-  font-size: .9rem;
-  padding-bottom: 1rem;
+  font-size: .8rem;
+  padding-bottom: 1.2vh;
 }
 
 .bgt-rural > :nth-child(2) {
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 0rem;
-  padding-bottom: .8rem;
+  padding-bottom: 6%;
 }
 
 .bgt-rural > :nth-child(3) {
-  font-size: 1.55rem;
+  font-size: 1.2rem;
+  margin-bottom: 0%;
 }
 
 
  .bgt-mujeres {
   max-width: 10rem;
-  transform: translateY(6rem);
+  transform: translateY(13vh) translateX(18%);
   margin-right: 0rem;
 }
 
 .bgt-mujeres > :nth-child(1){
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 
 .bgt-mujeres > :nth-child(2){
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   line-height: 1rem;
-  transform: translateY(1rem);
+  transform: translateY(0%);
 }
 
 .bgt-mujeres > :nth-child(3){
   flex: 0 0 100%;
-  font-size: 2rem;
-  transform: translateY(-0.5rem);
+  font-size: 1.6rem;
+  transform: translateY(-10%);
 }
 
 }

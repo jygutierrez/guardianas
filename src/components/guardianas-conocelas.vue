@@ -22,7 +22,7 @@ const imgYaneth = img_Yaneth
 
                     <div class="flip-card-front">
                         <v-card class="fill-height" color="#ae2e05" rounded="4rem" @click="isFlipped = true">
-                            <v-img color="#FFFBEC" height="500" :src="imgSandra" cover></v-img>
+                            <v-img class="card-imagen" color="#FFFBEC" height="500" :src="imgSandra" cover></v-img>
                             <v-card-title class="guardianaTitulo">Sandra Peñalosa</v-card-title>
                             <v-card-text class="guardianaDonde">Loc. Usme / Vereda Arrayanes</v-card-text>
                         </v-card>
@@ -53,7 +53,7 @@ const imgYaneth = img_Yaneth
 
                     <div class="flip-card-front">
                         <v-card class="fill-height" color="#ae2e05" rounded="4rem" @click="isFlippedY = true">
-                            <v-img color="#FFFBEC" height="500" :src="imgYaneth" cover></v-img>
+                            <v-img class="card-imagen" color="#FFFBEC" height="500" :src="imgYaneth" cover></v-img>
                             <v-card-title class="guardianaTitulo">Yaneth Bermúdez</v-card-title>
                             <v-card-text class="guardianaDonde">Loc. Usme / Vereda El Destino</v-card-text>
                         </v-card>
@@ -240,7 +240,7 @@ const imgYaneth = img_Yaneth
 
     .grd-about {
         display: grid;
-        gap: 4rem;
+        gap: 3rem;
         justify-content: center;
     }
 
@@ -253,18 +253,22 @@ const imgYaneth = img_Yaneth
     }
 
     .guardianaCitaA {
-        font-size: 2rem;
+        font-size: 1.5rem;
         line-height: 2rem;
     }
 
     .guardianaCitaB {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+    }
+
+    :deep(.v-img) {
+        height: 38vh !important;
     }
 
 
     .flip-card {
-        width: 75vw;
-        height: 34rem;
+        width: 80vw;
+        height: 50vh;
     }
     .grd-buttons {
         display: none;

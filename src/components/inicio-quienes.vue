@@ -115,8 +115,11 @@ div.carr {
 
 
 @media (max-width: 1100px) {
-
     .container {
+        margin-bottom: 60%;
+    }
+
+    .container .center {
         display: block;
     }
 

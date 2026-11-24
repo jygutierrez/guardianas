@@ -160,12 +160,12 @@ b {
     }
 
     .iniciativa .text h2 {
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: normal;
     }
 
     .iniciativa .text p {
-        font-size: .8rem;
+        font-size: .6rem;
         line-height: normal;
     }
 

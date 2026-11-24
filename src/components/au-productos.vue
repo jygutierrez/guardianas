@@ -193,9 +193,11 @@ const mielecita = reactive ( [
   transform-style: preserve-3d;
   
 }
+
 .flip-card-inner.is-flipped {
   transform: rotateY(180deg);
 }
+
 .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
@@ -239,24 +241,28 @@ const mielecita = reactive ( [
 
     .bienvenido h2{
         margin-bottom: 0;
+        font-size: 2.1rem;
     }
 
     .productos {
-        display: block;
-        margin: 0;
+        display: grid;
+        place-items: center;
+        justify-content: stretch;
+        width: 100%;
+        margin: auto;
     }
 
+
     .flip-card {
-        margin: 10rem 0rem;
+        margin: 5rem 0rem;
+        width: 90vw;
     }
 
     .flip-card:nth-child(1) {
-        margin: 10rem 1rem;
         margin-top: 0rem;
     }
 
     .flip-card:last-child {
-        margin: 10rem 1rem;
         margin-bottom: 0rem;
     }
 
@@ -266,14 +272,15 @@ const mielecita = reactive ( [
     }
 
     .grd-buttons {
+        padding-top: 14vh;
         display: flex;
         width: 80vw;
     }
 
     .grd-buttons a{
-        padding: 0.8rem 2.2rem;
+        padding: 0.4rem 2.2rem;
         border-radius: 3rem;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         font-weight: bold;
     }
 

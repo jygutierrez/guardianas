@@ -60,12 +60,18 @@
         height: auto;
     }
 
-    .container video {
-        max-width: 90vw;
+    .container iframe {
+        width: 90vw;
+        height: 30vh;
     }
 
     .grd-buttons {
         margin-top: 6rem;
+    }
+
+    .grd-buttons a{
+        font-size: 1rem;
+        padding: .4rem .9rem;
     }
 
 }

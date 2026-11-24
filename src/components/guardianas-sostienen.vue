@@ -56,7 +56,9 @@
     .text-titulo {
         font-size: .6rem;
         width: 40vw;
+        display: flex;
         text-align: center;
+        align-items: center;
     }
 
     .text-explicacion {
